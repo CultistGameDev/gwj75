@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dw6443v1744w5"]
+[gd_scene load_steps=4 format=3 uid="uid://dw6443v1744w5"]
 
 [ext_resource type="Script" path="res://Scripts/world.gd" id="1_845sx"]
 [ext_resource type="PackedScene" uid="uid://ciwky2uh6i2i4" path="res://Objects/grid.tscn" id="2_cjb61"]
+[ext_resource type="PackedScene" uid="uid://dy5kkmu0ryqpm" path="res://Objects/grid_lines.tscn" id="3_o6438"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_845sx")
@@ -13,3 +14,5 @@ script = ExtResource("1_845sx")
 [node name="Grid(0,1)" parent="." instance=ExtResource("2_cjb61")]
 
 [node name="Grid(1,1)" parent="." instance=ExtResource("2_cjb61")]
+
+[node name="GridLines" parent="." instance=ExtResource("3_o6438")]
