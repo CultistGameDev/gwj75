@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dy5kkmu0ryqpm"]
+
+[node name="GridLines" type="Node2D"]
+
+[node name="Vertical Line" type="Line2D" parent="."]
+points = PackedVector2Array(320, 0, 320, 640)
+width = 2.0
+
+[node name="Horizontal Line" type="Line2D" parent="."]
+points = PackedVector2Array(0, 320, 640, 320)
+width = 2.0
